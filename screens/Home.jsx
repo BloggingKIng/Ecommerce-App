@@ -4,6 +4,7 @@ import { Ionicons, Fontisto } from '@expo/vector-icons';
 import homeStyles from './homeStyles';
 import { Welcome } from '../components';
 import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
+import Carousel from '../components/Home/Carousel';
 export default function Home (){
     return (
         <SafeAreaView>
@@ -23,6 +24,7 @@ export default function Home (){
            </View>
            <ScrollView>
                 <Welcome />
+                <Carousel />
            </ScrollView>
         </SafeAreaView>
     )
