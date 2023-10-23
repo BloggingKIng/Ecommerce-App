@@ -5,6 +5,8 @@ import homeStyles from './homeStyles';
 import { Welcome } from '../components';
 import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import Carousel from '../components/Home/Carousel';
+import Headings from '../components/Home/Headings';
+import ProductRow from '../components/Products/ProductRow';
 export default function Home (){
     return (
         <SafeAreaView>
@@ -25,6 +27,8 @@ export default function Home (){
            <ScrollView>
                 <Welcome />
                 <Carousel />
+                <Headings />
+                <ProductRow />
            </ScrollView>
         </SafeAreaView>
     )
