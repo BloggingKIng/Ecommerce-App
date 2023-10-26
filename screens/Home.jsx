@@ -3,7 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons, Fontisto } from '@expo/vector-icons';
 import homeStyles from './homeStyles';
 import { Welcome } from '../components';
-import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
+import { ScrollView, TouchableOpacity } from 'react-native';
 import Carousel from '../components/Home/Carousel';
 import Headings from '../components/Home/Headings';
 import ProductRow from '../components/Products/ProductRow';

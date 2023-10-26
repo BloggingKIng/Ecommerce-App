@@ -10,10 +10,14 @@ export default function ProductRow (){
     return (
         <View style={{marginTop:SIZES.medium}}>
             <FlatList  
+                contentContainerStyle={{
+                    marginBottom: 20,
+                    columnGap:SIZES.medium
+                }}
+                nestedScrollEnabled 
                 data={products}
                 renderItem={({item})=>(<ProductCard />)}
                 horizontal
-                contentContainerStyle={{columnGap:SIZES.medium}}
 
             />
         </View>

@@ -16,8 +16,9 @@ const screenOptions = {
         right: 0,
         bottom: 0,
         elevation: 0,
-        height:70
-    }
+        height:70,
+    },
+
 }
 
 export default function BottomNavigation (){
