@@ -6,7 +6,7 @@ import { useCallback } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import BottomNavigation from './navigation/BottomTabNavigation';
-
+import { Details } from './screens';
 const Stack = createNativeStackNavigator();
 export default function App() {
   const [fontsLoaded] =  useFonts({
@@ -31,6 +31,9 @@ export default function App() {
             headerShown:false,
           }
         }/>
+        <Stack.Screen name='Product Details' component={Details} options={{
+          headerShown:false,
+        }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

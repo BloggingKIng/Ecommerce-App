@@ -8,7 +8,7 @@ export default function ProductRow (){
         1,2,3,4
     ]
     return (
-        <View style={{marginTop:SIZES.medium}}>
+        <View style={{marginTop:SIZES.medium, marginLeft:12}}>
             <FlatList  
                 contentContainerStyle={{
                     marginBottom: 20,
